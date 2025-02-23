@@ -2,10 +2,7 @@ import os
 import tkinter as tk
 from tkinter import messagebox
 
-# Get the current user's Videos\NVIDIA path dynamically
 user_videos_path = os.path.join(os.path.expanduser("~"), "Videos", "NVIDIA")
-
-# Define file types for pictures and videos
 PICTURE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff')
 VIDEO_EXTENSIONS = ('.mp4', '.avi', '.mkv', '.mov', '.wmv', '.flv')
 
@@ -14,7 +11,7 @@ def get_subfolders(folder):
     if os.path.exists(folder):
         for root, dirs, _ in os.walk(folder):
             for dir_name in dirs:
-                subfolders.append(os.path.join(root, dir_name))  # Add full path of subfolders
+                subfolders.append(os.path.join(root, dir_name))
     return subfolders
 
 def clean_folder(folder_path, file_types):
@@ -86,30 +83,26 @@ def count_files():
 def create_gui():
     window = tk.Tk()
     window.title("NHC")
-    window.geometry("300x440")  # Adjusted width for a better look
-    window.configure(bg="#2e2e2e")  # Dark background color
+    window.geometry("300x440")
+    window.configure(bg="#2e2e2e")
 
-    # Title Label
     title_label = tk.Label(window, text="Welcome to the", font=("Arial", 18, "bold"), fg="#ffffff", bg="#2e2e2e")
     title_label.pack(pady=10)
 
-    # Instructions Label
     instructions_label = tk.Label(window, text="Nvidia Highlights Cleaner", font=("Arial", 12), fg="#a1a1a1", bg="#2e2e2e")
     instructions_label.pack(pady=5)
 
-    # Button Style
     button_style = {
-        "bg": "#444444",  # Dark gray background
-        "fg": "#ffffff",  # White text
+        "bg": "#444444",
+        "fg": "#ffffff",
         "font": ("Arial", 12, "bold"),
         "relief": "flat",
         "width": 25,
         "height": 2,
-        "activebackground": "#666666",  # Slightly lighter gray for active state
-        "activeforeground": "#ffffff"  # White text on hover
+        "activebackground": "#666666",
+        "activeforeground": "#ffffff"
     }
 
-    # Buttons
     clean_pictures_button = tk.Button(window, text="Clean Only Pictures", command=on_clean_pictures, **button_style)
     clean_pictures_button.pack(pady=10)
 
