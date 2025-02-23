@@ -1,4 +1,4 @@
-# Nvidia Highlights Cleaner (NHC
+# Nvidia Highlights Cleaner (NHC)
 
 Nvidia Highlights Cleaner (NHC) is a simple application designed to clean up unwanted files (pictures and videos) in your Nvidia Highlights folders.
 
