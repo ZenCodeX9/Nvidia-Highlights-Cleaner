@@ -12,7 +12,7 @@ Nvidia Highlights Cleaner (NHC) is a simple application designed to clean up unw
 
 ## Installation
 
-1. Download the `Nvidia_Highlights_Cleaner.exe` file.
+1. Download the `NHC.exe` file.
 2. Double-click the `.exe` file to launch the application. No installation required.
 
 ## Usage
