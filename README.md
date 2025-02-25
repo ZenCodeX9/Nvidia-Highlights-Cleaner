@@ -1,37 +1,39 @@
 # Nvidia Highlights Cleaner (NHC)
 
-Nvidia Highlights Cleaner (NHC) is a simple application designed to clean up unwanted files (pictures and videos) in your Nvidia Highlights folders.
+Nvidia Highlights Cleaner (NHC) ist eine einfache Anwendung zur Bereinigung unerwünschter Dateien (Bilder und Videos) in deinen Nvidia Highlights-Ordnern.
 
 ## Features
 
-- Clean Nvidia Highlights folders by removing:
-  - Only pictures
-  - Only videos
-  - Both pictures and videos
-- Count the total number of pictures and videos in the Nvidia Highlights folders.
+- Löscht Nvidia Highlights-Ordner nach Wahl:
+  - Nur Bilder
+  - Nur Videos
+  - Sowohl Bilder als auch Videos
+- Zählt die Gesamtanzahl der Bilder und Videos in den Nvidia Highlights-Ordnern.
 
 ## Installation
 
-1. Download the `NHC.exe` file.
-2. Double-click the `.exe` file to launch the application. No installation required.
+1. Lade die Datei `NHC.exe` herunter.
+2. Doppelklicke die `.exe`-Datei, um die Anwendung zu starten. Keine Installation erforderlich.
 
-## Usage
+## Nutzung
 
-Once the application opens, you will see the following buttons:
+Nach dem Start der Anwendung stehen folgende Buttons zur Verfügung:
 
-- **Clean Only Pictures**: Deletes all picture files (`.jpg`, `.jpeg`, `.png`, etc.) in the Nvidia Highlights folders.
-- **Clean Only Videos**: Deletes all video files (`.mp4`, `.avi`, `.mkv`, etc.) in the Nvidia Highlights folders.
-- **Clean Both**: Deletes both pictures and videos in the Nvidia Highlights folders.
-- **Count Pictures & Videos**: Displays the total count of pictures and videos currently in the Nvidia Highlights folders.
+- **Nur Bilder löschen**: Löscht alle Bilddateien (`.jpg`, `.jpeg`, `.png` usw.) im Nvidia Highlights-Ordner.
+- **Nur Videos löschen**: Löscht alle Videodateien (`.mp4`, `.avi`, `.mkv` usw.) im Nvidia Highlights-Ordner.
+- **Beides löschen**: Löscht sowohl Bilder als auch Videos.
+- **Bilder & Videos zählen**: Zeigt die Gesamtanzahl der Bilder und Videos im Nvidia Highlights-Ordner an.
 
-## How It Works
+## Funktionsweise
 
-- The app dynamically finds the `Videos\NVIDIA` folder in your user profile.
-- It uses file extensions to identify and delete images and videos in the folder.
-- A confirmation message is displayed after cleaning, showing how many files were deleted.
-- The app also counts the total number of pictures and videos and shows this information in a pop-up.
+- Die App erkennt automatisch den `Videos\NVIDIA`-Ordner im Benutzerprofil.
+- Sie nutzt Dateiendungen, um Bilder und Videos zu identifizieren und zu löschen.
+- Eine Bestätigungsmeldung zeigt an, wie viele Dateien gelöscht wurden.
+- Die App zählt auch die Gesamtanzahl der Bilder und Videos und zeigt sie in einem Pop-up an.
 
-## System Requirements
+## Systemanforderungen
 
-- Windows 7 or higher.
-- NVIDIA Highlights must be activated ones
+- Windows 7 oder höher  
+- NVIDIA Highlights muss aktiviert sein  
+
+🔗 **Website:** [Nvidia Highlights Cleaner](https://nvidia-highlights-cleaner.netlify.app/)
